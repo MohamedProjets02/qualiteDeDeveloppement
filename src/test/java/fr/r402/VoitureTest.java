@@ -1,3 +1,6 @@
+package fr.r402;
+
+import fr.r402.Voiture;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -29,11 +32,11 @@ public class VoitureTest {
     void when_getprix_should_return_correct_price(){
 
         // Arrange
-        Voiture voiture = new Voiture(marque: "Ferrari", prix: 5000);
+        fr.r402.Voiture voiture = new fr.r402.Voiture(marque: "Ferrari", prix: 5000);
 
         // Act
         int expectedPrice = 5000;
-        int price = Voiture.getPrix();
+        int price = fr.r402.Voiture.getPrix();
 
         // Verify
         Assert.isTrue(expression: voiture.getPrix() == expectedPrice, message: "Doit être " + expectedPrice)

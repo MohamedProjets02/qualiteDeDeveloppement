@@ -1,3 +1,5 @@
+package fr.r402;
+
 public class Voiture {
 
     private String marque;

@@ -1,3 +1,5 @@
+package fr.r402;
+
 public interface Statistique {
 
     public void ajouter(Voiture voiture);
